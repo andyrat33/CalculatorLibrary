@@ -1,3 +1,3 @@
 # CalculatorLibrary
-CI test
-Practice CI
+* CI test
+* Practice CI
