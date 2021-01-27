@@ -1,6 +1,7 @@
 """
 Calculator library containing basic math operations.
 """
+# TODO Add multiply function
 
 
 def add(first_term, second_term):
