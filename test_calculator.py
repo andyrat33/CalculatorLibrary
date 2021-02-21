@@ -19,3 +19,6 @@ class TestCalculator:
     def test_division(self):
         assert 100 == calculator.divide(200, 2)
         assert 9 == calculator.divide(20, 2.1)
+
+    def test_divide_fl(self):
+        assert 9.523809523809524 == calculator.divide_fl(20, 2.1)
