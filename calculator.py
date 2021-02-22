@@ -22,8 +22,12 @@ def divide(first_term, second_term):
 def divide_fl(first_term, second_term):
     return first_term / second_term
 
+
 def square(first_term):
     return first_term ** 2
 
-    #test
+
 #TODO: Make another function
+def cube(first_term):
+    return first_term ** 3
+
