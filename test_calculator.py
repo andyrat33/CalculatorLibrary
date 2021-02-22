@@ -27,4 +27,4 @@ class TestCalculator:
         assert 25 == calculator.square(5)
 
     def test_cubed(self):
-        assert 126 == calculator.cube(5)
+        assert 125 == calculator.cube(5)
