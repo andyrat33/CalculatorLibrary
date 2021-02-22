@@ -28,3 +28,6 @@ class TestCalculator:
 
     def test_cubed(self):
         assert 125 == calculator.cube(5)
+
+    def test_power(self):
+        assert 4 == calculator.power(4,1)
