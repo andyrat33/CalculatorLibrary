@@ -29,3 +29,10 @@ def square(first_term):
 
 def cube(first_term):
     return first_term ** 3
+
+def power(first_term, second_term):
+    return first_term ** second_term
+
+# TODO add test for power
+
+
