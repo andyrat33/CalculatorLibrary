@@ -25,3 +25,4 @@ class TestCalculator:
 
     def test_squared(self):
         assert 25 == calculator.square(5)
+
