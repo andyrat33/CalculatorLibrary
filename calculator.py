@@ -27,7 +27,5 @@ def square(first_term):
     return first_term ** 2
 
 
-#TODO: Make another function
 def cube(first_term):
     return first_term ** 3
-
