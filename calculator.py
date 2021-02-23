@@ -33,3 +33,7 @@ def cube(first_term):
 
 def power(first_term, second_term):
     return first_term ** second_term
+
+def mod(first_term, second_term):
+    return first_term % second_term
+    # This is the modulo function that barry asked for

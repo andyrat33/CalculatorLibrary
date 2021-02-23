@@ -31,3 +31,7 @@ class TestCalculator:
 
     def test_power(self):
         assert 4 == calculator.power(4, 1)
+# TODO Add Modulo
+    def test_modulus(self):
+        assert 1 == calculator.mod(5, 2)
+
