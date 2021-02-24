@@ -21,8 +21,8 @@ class TestCalculator:
         assert 9 == calculator.divide(20, 2.1)
 
     def test_divide_fl(self):
-        assert 9.523809523809524 == calculator.divide_fl(20, 2.1)
-
+        assert 9.52380952380952 == calculator.divide_fl(20,2.1)
+        # removed a 4
     def test_squared(self):
         assert 25 == calculator.square(5)
 

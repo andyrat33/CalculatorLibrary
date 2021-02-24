@@ -2,7 +2,7 @@
 Calculator library containing basic math operations.
 """
 
-
+ # what a comments
 def add(first_term, second_term):
     return first_term + second_term
 
@@ -33,6 +33,7 @@ def cube(first_term):
 
 def power(first_term, second_term):
     return first_term ** second_term
+
 
 def mod(first_term, second_term):
     return first_term % second_term
