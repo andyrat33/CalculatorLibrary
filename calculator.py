@@ -2,7 +2,7 @@
 Calculator library containing basic math operations.
 """
 
- # what a comments
+# My Calculator
 def add(first_term, second_term):
     return first_term + second_term
 

@@ -21,8 +21,8 @@ class TestCalculator:
         assert 9 == calculator.divide(20, 2.1)
 
     def test_divide_fl(self):
-        assert 9.523809523809524 == calculator.divide_fl(20,2.1)
-        # added a 4
+        assert 9.523809523809524 == calculator.divide_fl(20, 2.1)
+
     def test_squared(self):
         assert 25 == calculator.square(5)
 
@@ -31,7 +31,6 @@ class TestCalculator:
 
     def test_power(self):
         assert 4 == calculator.power(4, 1)
-# TODO Add Modulo
+
     def test_modulus(self):
         assert 1 == calculator.mod(5, 2)
-
