@@ -1,7 +1,6 @@
 """
 Calculator library containing basic math operations.
 """
-
 # My Calculator
 
 
