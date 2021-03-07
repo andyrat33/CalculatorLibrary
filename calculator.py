@@ -39,3 +39,7 @@ def power(first_term, second_term):
 def mod(first_term, second_term):
     return first_term % second_term
     # This is the modulo function that barry asked for
+
+
+def square_root(first_term):
+    return first_term ** (1.0 / 2)
