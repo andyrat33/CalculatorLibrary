@@ -43,3 +43,8 @@ def mod(first_term, second_term):
 
 def square_root(first_term):
     return first_term ** (1.0 / 2)
+
+
+def itob(first_term):
+    """convet an int to bin"""
+    return bin(first_term)

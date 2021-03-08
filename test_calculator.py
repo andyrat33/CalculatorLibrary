@@ -1,7 +1,7 @@
 """
 Unit tests for the calculator library
 """
-
+import pytest
 import calculator
 
 
@@ -36,3 +36,9 @@ class TestCalculator:
 
     def test_sqroot(self):
         assert 2 == calculator.square_root(4)
+
+    def test_itob(self):
+        assert "0b10" == calculator.itob(2)
+        with pytest.raises(TypeError):
+            calculator.itob("a")
+        assert "0b101" == calculator.itob(3)
