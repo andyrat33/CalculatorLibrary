@@ -48,3 +48,6 @@ def square_root(first_term):
 def itob(first_term):
     """convet an int to bin"""
     return bin(first_term)
+
+
+# TODO make a more complex test with a negative outcome
