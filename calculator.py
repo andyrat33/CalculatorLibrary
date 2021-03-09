@@ -46,8 +46,11 @@ def square_root(first_term):
 
 
 def itob(first_term):
-    """convet an int to bin"""
-    return bin(first_term)
+    """convert an int to bin"""
+    if type(first_term) == int:
+        return bin(first_term)
+    else:
+        raise TypeError
 
 
 # TODO make a more complex test with a negative outcome
