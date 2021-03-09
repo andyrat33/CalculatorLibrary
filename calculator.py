@@ -51,6 +51,3 @@ def itob(first_term):
         return bin(first_term)
     else:
         raise TypeError
-
-
-# TODO make a more complex test with a negative outcome
