@@ -1,3 +1,5 @@
+from cryptography.hazmat.primitives import hashes
+
 """
 Calculator library containing basic math operations.
 """
@@ -51,3 +53,18 @@ def itob(first_term):
         return bin(first_term)
     else:
         raise TypeError
+
+
+if __name__ == "__main__":
+
+    FILENAME = "test.txt"
+    print("Test hash algorithm MD5 is weak")
+    print("Done")
+    fileDigest3 = hashes.Hash(hashes.MD5())
+    with open(FILENAME, "rb") as reader:
+        # Read and add line to fileDigest
+        for line in reader:
+            fileDigest3.update(line)
+
+    fileProduct3 = fileDigest3.finalize()
+    print(fileProduct3.hex())
