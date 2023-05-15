@@ -23,6 +23,6 @@ jobs:
             . venv/bin/activate
             mkdir test-results
             #flake8 --exclude=venv* --exit-zero --statistics
-            pytest -v --cov=calculator -v --junitxml=test-results/junit.xml
+            pytest --junitxml=test-results/junit.xml
       - store_test_results:
           path: test-results
