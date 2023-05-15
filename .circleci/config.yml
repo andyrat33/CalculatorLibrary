@@ -23,4 +23,3 @@ jobs:
             . venv/bin/activate
             #flake8 --exclude=venv* --exit-zero --statistics
             pytest -v --cov=calculator
-            store_test_results
