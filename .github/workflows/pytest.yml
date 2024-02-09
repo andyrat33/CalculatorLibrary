@@ -18,4 +18,5 @@ jobs:
           cov-threshold-single: 85
           cov-threshold-total: 90
           async-tests: true
+          pytest-tests-dir: .
           
