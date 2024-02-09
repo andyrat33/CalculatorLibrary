@@ -38,7 +38,7 @@ class TestCalculator:
         assert 2 == calculator.square_root(4)
 
     def test_itob(self):
-        assert b"0b10" == calculator.itob(2)
+        assert "0b10" == calculator.itob(2)
         with pytest.raises(TypeError):
             calculator.itob("a")
         assert "0b11" == calculator.itob(3)
