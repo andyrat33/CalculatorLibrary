@@ -18,4 +18,4 @@ jobs:
           cov-threshold-single: 85
           cov-threshold-total: 90
           async-tests: true
-          poetry-version: 1.4.2
+          
