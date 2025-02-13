@@ -3,7 +3,7 @@ attrs==20.3.0
 cffi==1.14.5
 cfgv==3.2.0
 coverage==5.3.1
-cryptography==42.0.8
+cryptography==44.0.1
 distlib==0.3.1
 filelock==3.0.12
 flake8==3.8.4
@@ -25,3 +25,4 @@ PyYAML==5.4.1
 six==1.15.0
 toml==0.10.2
 virtualenv==20.4.2
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
