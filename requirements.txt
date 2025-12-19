@@ -5,7 +5,7 @@ cfgv==3.2.0
 coverage==5.3.1
 cryptography==44.0.1
 distlib==0.3.1
-filelock==3.0.12
+filelock==3.20.1
 flake8==3.8.4
 identify==2.1.0
 iniconfig==1.1.1
