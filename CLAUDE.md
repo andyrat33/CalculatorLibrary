@@ -47,5 +47,5 @@ Division-by-zero on `/divide`, `/divide_fl`, `/mod` returns HTTP 400.
 - **Formatter:** Black (via pre-commit)
 - **Linter:** Flake8 (via pre-commit)
 - **Pre-commit hooks:** check-yaml, end-of-file-fixer, trailing-whitespace, black, flake8
-- **CI:** GitHub Actions (pytest), CircleCI (pytest + Docker build), Semgrep
+- **CI:** GitHub Actions (pytest, Docker build, Semgrep), CircleCI (pytest + Docker build)
 - **Container:** Dockerfile using `python:3.12-slim`, runs uvicorn on port 8000
