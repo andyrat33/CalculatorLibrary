@@ -17,10 +17,14 @@ def multiply(first_term, second_term):
 
 
 def divide(first_term, second_term):
+    if second_term == 0:
+        raise ValueError("Cannot divide by zero")
     return first_term // second_term
 
 
 def divide_fl(first_term, second_term):
+    if second_term == 0:
+        raise ValueError("Cannot divide by zero")
     return first_term / second_term
 
 
@@ -37,6 +41,8 @@ def power(first_term, second_term):
 
 
 def mod(first_term, second_term):
+    if second_term == 0:
+        raise ValueError("Cannot divide by zero")
     return first_term % second_term
     # This is the modulo function that barry asked for
 

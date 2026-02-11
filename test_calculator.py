@@ -19,8 +19,16 @@ class TestCalculator:
         assert 100 == calculator.divide(200, 2)
         assert 9 == calculator.divide(20, 2.1)
 
+    def test_division_by_zero(self):
+        with pytest.raises(ValueError):
+            calculator.divide(10, 0)
+
     def test_divide_fl(self):
         assert 9.523809523809524 == calculator.divide_fl(20, 2.1)
+
+    def test_divide_fl_by_zero(self):
+        with pytest.raises(ValueError):
+            calculator.divide_fl(10, 0)
 
     def test_squared(self):
         assert 25 == calculator.square(5)
@@ -33,6 +41,10 @@ class TestCalculator:
 
     def test_modulus(self):
         assert 1 == calculator.mod(5, 2)
+
+    def test_modulus_by_zero(self):
+        with pytest.raises(ValueError):
+            calculator.mod(5, 0)
 
     def test_sqroot(self):
         assert 2 == calculator.square_root(4)
